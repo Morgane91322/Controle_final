@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background-color: rgb(86, 114, 138);
+}
+
+.Passion{
+height: 50px;
+display:flex;
+margin-left: 5px;  
+margin-top: 5px; 
+
+}
+
+.boutton{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+header{
+font-size:20px;
+list-style-type:none;
+display: flex;
+background-color: #232382;
+color:white;
+padding:15px 30px; 
+display: flex;
+}
+
+
+.menu li{
+    display:inline;
+    padding: 50px 30px; 
+}
+
+.Image 
+{
+    width:100%;
+    height: 80%;  
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.bloc
+{
+ background-color:#606060;
+ height: 400px; 
+ width: 30%;
+ border-style: solid;
+ border-radius:20px; 
+ margin: 6px; 
+ text-align:center;
+ transform: scale(1); 
+ transition: 0.4s; 
+ color:white; 
+ font-family: Arial, sans-serif;
+ font-size: 22px;
+}
+
+.bloc:hover{
+    background-color: #232382;
+    transform: scale(0.9)
+}
+
+.eleImage{
+    display:flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Titre{
+    text-align: center;
+    color:wheat; 
+}
+
+#barrerecherche{
+    display:flex; 
+justify-content: center;
+align-items: center;
+border-style:solid; 
+margin : 0 auto; 
+}
+
+#boutonrecherche{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin : 0 auto; 
+    color: white; 
+}
+
+#Afficher{
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin : 45px;  
+    color: white; 
+}
+
+#PremierTitre{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+footer{
+    background-color: #232382;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.pied{
+    color: white;
+}
+
+#Titre2{
+    color: white; 
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#italique{
+    color: white; 
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+.titrepied{
+    margin:10px; 
+    padding:20px; 
+}
