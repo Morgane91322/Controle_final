@@ -92,7 +92,6 @@ margin : 0 auto;
 #Afficher{
     display:flex; 
     flex-wrap: wrap;
-    align-items: right;
     justify-content: center;
     margin : 45px;  
     color: white; 
